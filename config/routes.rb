@@ -11,12 +11,7 @@ Rails.application.routes.draw do
   end
   resources :users, only: :show
   
-  #   resources :comments, only: :create
-  #   collection do
-  #     get 'search'
-  #   end
-  # end
-  # resources :users, only: :show
+  
 
 
 
